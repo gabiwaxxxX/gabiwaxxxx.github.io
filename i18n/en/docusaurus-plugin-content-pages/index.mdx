@@ -4,6 +4,9 @@ description: 'Introduction'
 ---
 
 import '../../../src/css/index.css';
+import TechStack from '/static/components/TechStack';
+import RandomCards from '/static/components/RandomCards';
+
 
 <div
   style={{
@@ -49,25 +52,13 @@ import '../../../src/css/index.css';
       around DeFi and blockchain automation.
     </p>
     <p>
-      👉{' '}
-      <strong>
-        Curious to know more or interested in collaborating? Feel free to get in
-        touch!
-      </strong>
+      👉
+      <strong> Curious to know more or interested in collaborating? Feel free to get in touch! </strong>
     </p>
   </div>
 </div>
 
 {/* Links */}
 
-<div style={{ display: 'flex', gap: '1rem' }}>
-  <a href="/articles" className="mycard">
-    <h3>📚 Articles</h3>
-    <p>Read my reflexions on AI and my research.</p>
-  </a>
-
-  <a href="/projets" className="mycard">
-    <h3>🔧 Projects</h3>
-    <p>Explore my contributions and projects</p>
-  </a>
-</div>
+<TechStack />
+<RandomCards />

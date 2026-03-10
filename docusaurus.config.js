@@ -4,7 +4,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Gabriel F.',
   tagline: 'Dinosaurs are cool',
-  favicon: 'https://www.remilia.com/identity/pfp/veryinternetperson/2608',
+  favicon: 'https://www.remilia.net/identity/pfp/veryinternetperson/2608',
 
   url: 'https://gabiwaxxxx.github.io',
   baseUrl: '/',
@@ -60,7 +60,7 @@ const config = {
         title: 'Gabriel F.',
         logo: {
           alt: 'My Site Logo',
-          src: 'https://www.remilia.com/identity/pfp/veryinternetperson/2608',
+          src: 'https://www.remilia.net/identity/pfp/veryinternetperson/2608',
         },
 
         items: [
